@@ -1,0 +1,158 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Arial;
+    font-size: 17px;
+}
+#nav {
+    background-color: #222;
+}
+#nav_wrapper {
+    width: 960px;
+    margin: 0 auto;
+    text-align: left;
+}
+#nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    min-width: 200px;
+}
+#nav ul li {
+    display: inline-block;
+}
+#nav ul li:hover {
+    background-color: #333;
+}
+#nav ul li a, visited {
+    color: #CCC;
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+}
+#nav ul li:hover ul {
+    display: block;
+}
+#nav ul ul {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    border: 5px solid #222;
+    border-top: 0;
+    margin-left: -5px;
+}
+#nav ul ul li {
+    display: block;
+}
+#nav ul ul li a:hover {
+    color: #699;
+}
+.pullQuote{
+	padding: 15px;
+	width:75%
+	margin:auto;
+	background-color:rgba(0,0,0,.5);
+	border:1px black solid;
+	color:white
+
+
+}
+h1 a{
+	font-family: 'Arimo', sans-serif;
+	line-height: 25px;
+	text-decoration:none;
+	color: E1E100;
+
+}
+
+p{
+	font-family: ‘Work Sans’, sans-serif;
+	line-height: 25px;
+	font-size: .8em;
+}
+
+h2{
+	text-align: center;
+	font-family: 'Arimo', sans-serif;
+	line-height: 25px;
+	color: E1E100;
+}
+
+h4{
+	text-align: center;
+	font-family: 'Arimo', sans-serif;
+	line-height: 25px;
+}
+
+
+header{
+	background-color:white;
+	height:120px;
+	top:0;
+	width:100%;
+	position:fixed;
+
+
+
+}
+
+
+
+
+
+footer {
+	background-color:white;
+	text-align: center;
+	color: black;
+	width:100%;
+	position:fixed;
+	height:40px%;
+	bottom:0;
+	
+}
+
+article img{
+	height:150px;
+	width:60%;
+	text-align: center;
+
+}
+
+article{
+	background-color: white;
+	text-align:center;
+	color: black;
+	width:49%;
+	height: 30%;
+	float:left;
+	padding:15px; 
+	margin-top: 25px;
+	margin-bottom: 30px;
+	margin-left: 15px;
+
+
+}
+
+.col1 {
+  width: 100%;
+}
+
+.col2 {
+  width: 49%;
+  float: left;
+  margin-right: 2%;
+}
+
+.col3 {
+  width: 49%;
+  float: left;
+}
+
+#container {
+  padding-top: 60px;
+}
+
+
+
+
